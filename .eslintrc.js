@@ -91,7 +91,32 @@ module.exports = {
                 '@typescript-eslint/no-unused-vars': 'error',
                 // Require PascalCased class and interface names
                 // '@typescript-eslint/class-name-casing': 'error',
-                '@typescript-eslint/naming-convention': 'error',
+                //https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/naming-convention.md#allowed-selectors-modifiers-and-types
+                '@typescript-eslint/naming-convention': [
+                    'error',
+                    {
+                        "selector": [ "variable" ],
+                        "modifiers": ["const", "global"],
+                        "format": ["PascalCase"]
+                    },
+                    {
+                        selector: 'default',
+                        format: ['camelCase'],
+                        leadingUnderscore: 'allow',
+                        trailingUnderscore: 'allow',
+                    },
+                    {
+                        selector: 'variable',
+                        format: ['camelCase', 'UPPER_CASE'],
+                        leadingUnderscore: 'allow',
+                        trailingUnderscore: 'allow',
+                    },
+                    {
+                        selector: 'typeLike',
+                        format: ['PascalCase'],
+                    },
+                ],
+
 
                 // Require a specific member delimiter style for interfaces and type literals
                 // Default Semicolon style
