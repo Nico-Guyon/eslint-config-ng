@@ -9,7 +9,7 @@
   "peerDependencies": {
     "prettier": "^2.0.5",
     "eslint": "^7.11.0",
-    "@react-native-community/eslint-config": "^0.0.3",
+    "@react-native-community/eslint-config": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -26,7 +26,7 @@
   "devDependencies": {
     "prettier": "^2.0.5",
     "eslint": "^7.11.0",
-    "@react-native-community/eslint-config": "^0.0.3",
+    "@react-native-community/eslint-config": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
     "eslint-config-airbnb": "^17.1.0",
@@ -43,7 +43,7 @@
   "dependencies": {
     "prettier": "^2.0.5",
     "eslint": "^7.11.0",
-    "@react-native-community/eslint-config": "^0.0.3",
+    "@react-native-community/eslint-config": "^2.0.0",
     "@typescript-eslint/eslint-plugin": "^4.4.0",
     "@typescript-eslint/parser": "^4.4.0",
     "eslint-config-airbnb": "^17.1.0",
