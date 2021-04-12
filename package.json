@@ -1,6 +1,6 @@
 {
   "name": "@ng/eslint-config-ng",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "ESLint config based in recommended best practices",
   "main": "index.js",
   "repository": "https://github.com/Nico-Guyon/eslint-config-ng",
