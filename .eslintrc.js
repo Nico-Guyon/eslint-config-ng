@@ -101,13 +101,13 @@ module.exports = {
                     },
                     {
                         selector: 'default',
-                        format: ['camelCase'],
+                        format: ['camelCase', 'PascalCase'],
                         leadingUnderscore: 'allow',
                         trailingUnderscore: 'allow',
                     },
                     {
                         selector: 'variable',
-                        format: ['camelCase', 'UPPER_CASE'],
+                        format: ['camelCase', 'UPPER_CASE', 'PascalCase'],
                         leadingUnderscore: 'allow',
                         trailingUnderscore: 'allow',
                     },
