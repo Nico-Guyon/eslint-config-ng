@@ -97,7 +97,7 @@ module.exports = {
                     {
                         "selector": [ "variable" ],
                         "modifiers": ["const", "global"],
-                        "format": ["PascalCase"]
+                        "format": ["PascalCase", 'camelCase']
                     },
                     {
                         selector: 'default',
